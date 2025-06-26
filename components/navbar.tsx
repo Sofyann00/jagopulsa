@@ -41,7 +41,7 @@ export function Navbar() {
           <Link href="/" className="flex items-center gap-3">
             <img 
               src="/app_icon.png" 
-              alt="JagoPulsa Logo"
+              alt="vocihub Logo"
               width={200}
               height={200}
               className="object-contain"
@@ -54,7 +54,7 @@ export function Navbar() {
             <div className="relative hidden md:block">
               <input
                 type="text"
-                placeholder="Search games..."
+                placeholder="Cari layanan..."
                 value={searchQuery}
                 onChange={handleSearch}
                 className="w-64 px-4 py-2 pl-10 bg-gray-50 border border-gray-200 rounded-xl text-gray-900 placeholder-gray-500 focus:outline-none focus:border-[#f77a0e] focus:ring-2 focus:ring-[#f77a0e]/20 transition-all duration-200"

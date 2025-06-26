@@ -6,7 +6,7 @@ const transporter = nodemailer.createTransport({
     port: 465, // Using Mailtrap's alternative port
     secure: true, // Set to false for port 2525
     auth: {
-      user: 'admin@JagoPulsa.com',
+      user: 'admin@jagopulsa.net',
       pass: 'JagoPulsa123!',
     },
 });
@@ -16,13 +16,13 @@ export async function POST(request: Request) {
     const { to, productName, itemName, price, playerId } = await request.json();
 
     const mailOptions = {
-      from: 'admin@JagoPulsa.com',
+      from: 'admin@jagopulsa.net',
       to,
       subject: 'Purchase Confirmation - JagoPulsa',
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
           <div style="text-align: center; margin-bottom: 30px;">
-            <img src="https://JagoPulsa.com/app_icon.png" alt="JagoPulsa Logo" style="width: 150px; height: auto; margin-bottom: 20px;">
+            <img src="https://jagopulsa.net/app_icon.png" alt="JagoPulsa Logo" style="width: 150px; height: auto; margin-bottom: 20px;">
           </div>
           
           <h2 style="color: #2563eb; text-align: center;">Thank You For Your Purchase!</h2>
