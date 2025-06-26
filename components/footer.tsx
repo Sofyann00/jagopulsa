@@ -10,16 +10,14 @@ export function Footer() {
           {/* Company Info */}
           <div className="space-y-6">
             <div className="flex items-center gap-3">
-              <img 
-                src="/app_icon.png" 
-                alt="JagoPulsa Logo"
-                width={220}
-                height={220}
-                className="object-contain -ml-6 sm:ml-0 -mt-6 sm:mt-0"
-              />
+            <Link href="/" className="flex items-center gap-3">
+            <span className="text-2xl font-bold text-[#f77a0e]">
+              Jago Pulsa
+            </span>
+          </Link>
             </div>
             <p className="text-gray-600 text-sm leading-relaxed">
-              Your trusted platform for game vouchers and digital products. We provide secure, instant, and reliable services for all your gaming needs.
+              Platform terpercaya untuk pembelian pulsa dan paket data. Kami menyediakan layanan top-up yang aman, cepat, dan terpercaya untuk semua kebutuhan komunikasi Anda.
             </p>
           </div>
 

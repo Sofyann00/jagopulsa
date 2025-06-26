@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Privacy Policy - JagoPulsa',
-  description: 'Privacy Policy for JagoPulsa game voucher and top-up services',
+  description: 'Kebijakan Privasi untuk layanan pulsa dan top-up JagoPulsa',
 }
 
 export default function PrivacyPage() {
@@ -11,7 +11,7 @@ export default function PrivacyPage() {
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-white p-8 rounded-lg shadow border border-gray-200">
           <h1 className="text-3xl font-bold text-gray-900 mb-4">
-            Privacy Policy
+            Kebijakan Privasi
           </h1>
           <p className="text-sm text-gray-500 italic mb-8">
             Last Updated: {new Date().toLocaleDateString()}
@@ -20,90 +20,90 @@ export default function PrivacyPage() {
           <section className="space-y-8">
             <div>
               <h2 className="text-xl font-semibold text-gray-900 mb-3">
-                1. Information We Collect
+                1. Informasi yang Kami Kumpulkan
               </h2>
               <p className="text-gray-600">
-                JagoPulsa collects personal information including but not limited to: name, email address, phone number, game account details, player IDs, payment information, and transaction history when you purchase game vouchers, top-up credits, or create an account on our platform.
+                JagoPulsa mengumpulkan informasi pribadi termasuk namun tidak terbatas pada: nama, alamat email, nomor telepon, detail nomor yang akan diisi pulsa, informasi pembayaran, dan riwayat transaksi ketika Anda membeli pulsa, paket data, atau membuat akun di platform kami.
               </p>
             </div>
 
             <div>
               <h2 className="text-xl font-semibold text-gray-900 mb-3">
-                2. How We Use Your Information
+                2. Bagaimana Kami Menggunakan Informasi Anda
               </h2>
               <p className="text-gray-600">
-                We use your information to:
+                Kami menggunakan informasi Anda untuk:
               </p>
               <ul className="list-disc ml-6 mt-2 text-gray-600 space-y-1">
-                <li>Process your game voucher and top-up purchases</li>
-                <li>Deliver purchased items to your game account</li>
-                <li>Provide customer support and assistance</li>
-                <li>Send purchase confirmations and transaction updates</li>
-                <li>Maintain records of your transactions</li>
-                <li>Send promotional offers and game updates (with your consent)</li>
-                <li>Improve our services and user experience</li>
+                <li>Memproses pembelian pulsa dan paket data Anda</li>
+                <li>Mengirim pulsa ke nomor telepon yang Anda tentukan</li>
+                <li>Memberikan dukungan dan bantuan pelanggan</li>
+                <li>Mengirim konfirmasi pembelian dan update transaksi</li>
+                <li>Menyimpan catatan transaksi Anda</li>
+                <li>Mengirim penawaran promosi dan update layanan (dengan persetujuan Anda)</li>
+                <li>Meningkatkan layanan dan pengalaman pengguna kami</li>
               </ul>
             </div>
 
             <div>
               <h2 className="text-xl font-semibold text-gray-900 mb-3">
-                3. Data Security
+                3. Keamanan Data
               </h2>
               <p className="text-gray-600">
-                We implement strong technical and organizational measures to protect your personal and payment information against unauthorized access, alteration, disclosure, or destruction. Our security protocols meet industry standards for online transactions and data protection.
+                Kami menerapkan langkah-langkah teknis dan organisasi yang kuat untuk melindungi informasi pribadi dan pembayaran Anda dari akses tidak sah, perubahan, pengungkapan, atau perusakan. Protokol keamanan kami memenuhi standar industri untuk transaksi online dan perlindungan data.
               </p>
             </div>
 
             <div>
               <h2 className="text-xl font-semibold text-gray-900 mb-3">
-                4. Data Retention
+                4. Penyimpanan Data
               </h2>
               <p className="text-gray-600">
-                We retain your personal and transaction information for as long as necessary to fulfill the purposes outlined in this Privacy Policy, and as required by applicable laws. Transaction records are typically maintained for a minimum of 5 years to comply with financial regulations and to assist with any potential inquiries or disputes.
+                Kami menyimpan informasi pribadi dan transaksi Anda selama diperlukan untuk memenuhi tujuan yang diuraikan dalam Kebijakan Privasi ini, dan sesuai dengan hukum yang berlaku. Catatan transaksi biasanya disimpan minimum 5 tahun untuk mematuhi peraturan keuangan dan membantu dengan pertanyaan atau sengketa potensial.
               </p>
             </div>
 
             <div>
               <h2 className="text-xl font-semibold text-gray-900 mb-3">
-                5. Your Rights
+                5. Hak Anda
               </h2>
               <p className="text-gray-600">
-                Under Indonesian data protection laws, you have the right to:
+                Berdasarkan hukum perlindungan data Indonesia, Anda memiliki hak untuk:
               </p>
               <ul className="list-disc ml-6 mt-2 text-gray-600 space-y-1">
-                <li>Access your personal data and transaction history</li>
-                <li>Correct inaccurate information</li>
-                <li>Request deletion of your data (subject to legal requirements)</li>
-                <li>Object to processing of your data</li>
-                <li>Withdraw consent for marketing communications</li>
-                <li>Request limitations on how we use your information</li>
+                <li>Mengakses data pribadi dan riwayat transaksi Anda</li>
+                <li>Memperbaiki informasi yang tidak akurat</li>
+                <li>Meminta penghapusan data Anda (tunduk pada persyaratan hukum)</li>
+                <li>Menolak pemrosesan data Anda</li>
+                <li>Menarik persetujuan untuk komunikasi pemasaran</li>
+                <li>Meminta pembatasan cara kami menggunakan informasi Anda</li>
               </ul>
             </div>
 
             <div>
               <h2 className="text-xl font-semibold text-gray-900 mb-3">
-                6. Cookies and Tracking
+                6. Cookie dan Pelacakan
               </h2>
               <p className="text-gray-600">
-                We use cookies and similar tracking technologies to enhance your experience on our platform, remember your preferences, maintain your login status, analyze site traffic, and provide personalized game recommendations based on your purchase history.
+                Kami menggunakan cookie dan teknologi pelacakan serupa untuk meningkatkan pengalaman Anda di platform kami, mengingat preferensi Anda, mempertahankan status login, menganalisis lalu lintas situs, dan memberikan rekomendasi layanan yang dipersonalisasi berdasarkan riwayat pembelian Anda.
               </p>
             </div>
 
             <div>
               <h2 className="text-xl font-semibold text-gray-900 mb-3">
-                7. Third-Party Services
+                7. Layanan Pihak Ketiga
               </h2>
               <p className="text-gray-600">
-                We may use third-party payment processors and game platform services to facilitate transactions. These services have their own privacy policies and data practices. We encourage you to review their policies to understand how they handle your information.
+                Kami dapat menggunakan prosesor pembayaran pihak ketiga dan layanan operator telekomunikasi untuk memfasilitasi transaksi. Layanan ini memiliki kebijakan privasi dan praktik data mereka sendiri. Kami mendorong Anda untuk meninjau kebijakan mereka untuk memahami bagaimana mereka menangani informasi Anda.
               </p>
             </div>
 
             <div>
               <h2 className="text-xl font-semibold text-gray-900 mb-3">
-                8. Contact Information
+                8. Informasi Kontak
               </h2>
               <div className="text-gray-600">
-                <p>For any questions about this Privacy Policy or our data practices, please contact us at:</p>
+                <p>Untuk pertanyaan tentang Kebijakan Privasi ini atau praktik data kami, silakan hubungi kami di:</p>
                 <div className="mt-2">
                   <p>PT KEMBAR EMPAT BERSAMA</p>
                   <p>Gedung Is Plaza Lt. 5</p>

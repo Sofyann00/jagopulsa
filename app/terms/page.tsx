@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Terms of Service - JagoPulsa',
-  description: 'Terms of Service and conditions for using JagoPulsa game voucher and top-up services',
+  description: 'Syarat dan ketentuan penggunaan layanan pulsa dan top-up JagoPulsa',
 }
 
 export default function TermsPage() {
@@ -23,34 +23,34 @@ export default function TermsPage() {
                 1. Agreement to Terms
               </h2>
               <p className="text-gray-600">
-                By accessing and using the game voucher and top-up services provided by PT KEMBAR EMPAT BERSAMA (hereinafter referred to as "JagoPulsa"), you accept and agree to be bound by the terms and provisions of this agreement.
+                Dengan mengakses dan menggunakan layanan pulsa dan top-up yang disediakan oleh PT KEMBAR EMPAT BERSAMA (selanjutnya disebut "JagoPulsa"), Anda menerima dan setuju untuk terikat dengan syarat dan ketentuan dalam perjanjian ini.
               </p>
             </div>
 
             <div>
               <h2 className="text-xl font-semibold text-gray-900 mb-3">
-                2. Game Services
+                2. Layanan Pulsa dan Top-Up
               </h2>
               <p className="text-gray-600">
-                JagoPulsa provides game voucher and top-up services including in-game currency, battle passes, premium accounts, and various game items. All service listings, including prices, availability, and specifications, are subject to change without prior notice. We guarantee the authenticity and validity of all game vouchers and items provided through our platform.
+                JagoPulsa menyediakan layanan pulsa dan top-up termasuk pulsa semua operator, paket data, token listrik PLN, dan berbagai layanan pembayaran digital lainnya. Semua daftar layanan, termasuk harga, ketersediaan, dan spesifikasi, dapat berubah tanpa pemberitahuan sebelumnya. Kami menjamin keaslian dan validitas semua layanan yang disediakan melalui platform kami.
               </p>
             </div>
 
             <div>
               <h2 className="text-xl font-semibold text-gray-900 mb-3">
-                3. Purchases and Delivery
+                3. Pembelian dan Pengiriman
               </h2>
               <p className="text-gray-600">
-                All purchases are subject to availability and game platform requirements. Delivery of purchased items is typically instant but may be subject to game server conditions and platform processing times. In case of delivery delays, we will notify you and provide updates on the status of your purchase. Refunds are available only in accordance with our refund policy and game platform terms.
+                Semua pembelian tergantung pada ketersediaan dan persyaratan operator telekomunikasi. Pengiriman layanan biasanya instan tetapi dapat tergantung pada kondisi server operator dan waktu pemrosesan platform. Jika terjadi keterlambatan pengiriman, kami akan memberi tahu Anda dan memberikan update status pembelian. Pengembalian dana hanya tersedia sesuai dengan kebijakan pengembalian dana kami dan syarat operator.
               </p>
             </div>
 
             <div>
               <h2 className="text-xl font-semibold text-gray-900 mb-3">
-                4. Account and Information Use
+                4. Akun dan Penggunaan Informasi
               </h2>
               <p className="text-gray-600">
-                All game account information and personal details provided to JagoPulsa will be treated with strict confidentiality. We will not disclose your information to third parties except when required by law or with your explicit permission. JagoPulsa may use anonymized data for service improvement and customer support purposes.
+                Semua informasi nomor telepon dan data pribadi yang diberikan kepada JagoPulsa akan diperlakukan dengan kerahasiaan ketat. Kami tidak akan mengungkapkan informasi Anda kepada pihak ketiga kecuali jika diperlukan oleh hukum atau dengan izin eksplisit Anda. JagoPulsa dapat menggunakan data anonim untuk tujuan peningkatan layanan dan dukungan pelanggan.
               </p>
             </div>
 
@@ -59,34 +59,34 @@ export default function TermsPage() {
                 5. Limitation of Liability
               </h2>
               <p className="text-gray-600">
-                While we guarantee the authenticity of our game vouchers and items, JagoPulsa shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of our services. This includes but is not limited to game account issues, server problems, or platform-specific restrictions that may affect the use of purchased items.
+                Meskipun kami menjamin keaslian layanan pulsa dan top-up kami, JagoPulsa tidak bertanggung jawab atas kerusakan tidak langsung, insidental, khusus, konsekuensial, atau hukuman yang diakibatkan dari penggunaan layanan kami. Termasuk tetapi tidak terbatas pada masalah operator, masalah server, atau pembatasan khusus platform yang dapat mempengaruhi penggunaan layanan yang dibeli.
               </p>
             </div>
 
             <div>
               <h2 className="text-xl font-semibold text-gray-900 mb-3">
-                6. User Responsibilities
+                6. Tanggung Jawab Pengguna
               </h2>
               <p className="text-gray-600">
-                Users are responsible for providing accurate game account information and ensuring compliance with game platform terms of service. Users must verify all purchases before completing transactions and notify JagoPulsa promptly of any issues. JagoPulsa is not responsible for account issues resulting from incorrect information provided by users or violations of game platform terms.
+                Pengguna bertanggung jawab untuk memberikan informasi nomor telepon yang akurat dan memastikan kepatuhan dengan syarat layanan operator telekomunikasi. Pengguna harus memverifikasi semua pembelian sebelum menyelesaikan transaksi dan memberi tahu JagoPulsa dengan segera jika ada masalah. JagoPulsa tidak bertanggung jawab atas masalah nomor telepon yang diakibatkan oleh informasi yang salah yang diberikan oleh pengguna atau pelanggaran syarat operator.
               </p>
             </div>
 
             <div>
               <h2 className="text-xl font-semibold text-gray-900 mb-3">
-                7. Governing Law
+                7. Hukum yang Berlaku
               </h2>
               <p className="text-gray-600">
-                These terms are governed by the laws of the Republic of Indonesia. Any disputes shall be subject to the exclusive jurisdiction of the courts in Jakarta, Indonesia.
+                Syarat dan ketentuan ini diatur oleh hukum Republik Indonesia. Setiap sengketa akan tunduk pada yurisdiksi eksklusif pengadilan di Jakarta, Indonesia.
               </p>
             </div>
 
             <div>
               <h2 className="text-xl font-semibold text-gray-900 mb-3">
-                8. Contact Information
+                8. Informasi Kontak
               </h2>
               <div className="text-gray-600">
-                <p>For any questions about these Terms of Service, please contact us at:</p>
+                <p>Untuk pertanyaan tentang Syarat dan Ketentuan ini, silakan hubungi kami di:</p>
                 <div className="mt-2">
                   <p>PT KEMBAR EMPAT BERSAMA</p>
                   <p>Gedung Is Plaza Lt. 5</p>

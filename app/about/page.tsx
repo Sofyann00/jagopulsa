@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'About Us - JagoPulsa',
-  description: 'Your trusted game voucher and top-up provider in Indonesia',
+  description: 'Penyedia pulsa dan paket data terpercaya di Indonesia',
 }
 
 export default function AboutPage() {
@@ -14,7 +14,7 @@ export default function AboutPage() {
             About JagoPulsa
           </h1>
           <p className="text-sm text-gray-500 italic mb-8">
-            Your Trusted Game Voucher and Top-Up Provider in Indonesia
+            Penyedia Pulsa dan Paket Data Terpercaya di Indonesia
           </p>
 
           <section className="space-y-8">
@@ -23,7 +23,7 @@ export default function AboutPage() {
                 Our Story
               </h2>
               <p className="text-gray-600">
-                Founded by passionate gamers, JagoPulsa has emerged as a leading game voucher and top-up provider in Indonesia. Our journey began with a simple mission: to provide gamers with a reliable, fast, and secure way to purchase game credits and vouchers. What started as a small team of gaming enthusiasts has grown into a trusted platform serving thousands of gamers across Indonesia.
+                Didirikan dengan visi menyediakan layanan telekomunikasi yang mudah dan terpercaya, JagoPulsa telah menjadi penyedia pulsa dan paket data terkemuka di Indonesia. Perjalanan kami dimulai dengan misi sederhana: memberikan layanan top-up pulsa yang cepat, aman, dan terpercaya. Dari tim kecil yang berdedikasi, kini kami telah berkembang menjadi platform terpercaya yang melayani ribuan pelanggan di seluruh Indonesia.
               </p>
             </div>
 
@@ -32,12 +32,12 @@ export default function AboutPage() {
                 Why Choose Us
               </h2>
               <ul className="text-gray-600 list-disc pl-5 space-y-2">
-                <li>Instant Delivery of Game Vouchers and Credits</li>
-                <li>Wide Range of Popular Games Supported</li>
-                <li>Secure Payment Methods</li>
-                <li>24/7 Customer Support</li>
-                <li>Competitive Prices</li>
-                <li>Trusted by Thousands of Gamers</li>
+                <li>Pengisian Pulsa Instan ke Semua Operator</li>
+                <li>Paket Data dengan Harga Kompetitif</li>
+                <li>Metode Pembayaran yang Aman</li>
+                <li>Layanan Pelanggan 24/7</li>
+                <li>Harga Terjangkau dan Transparan</li>
+                <li>Dipercaya Ribuan Pelanggan</li>
               </ul>
             </div>
 
@@ -46,7 +46,7 @@ export default function AboutPage() {
                 Our Commitment
               </h2>
               <p className="text-gray-600">
-                At JagoPulsa, we are committed to providing the best gaming experience for our customers. We understand the importance of quick and reliable top-up services for gamers. Our team works tirelessly to ensure instant delivery of vouchers and credits, secure transactions, and excellent customer support. We pride ourselves on building trust with our gaming community and ensuring satisfaction through our reliable services.
+                Di JagoPulsa, kami berkomitmen memberikan pengalaman terbaik dalam layanan telekomunikasi. Kami memahami pentingnya layanan top-up yang cepat dan terpercaya untuk kebutuhan komunikasi sehari-hari. Tim kami bekerja keras memastikan pengisian pulsa instan, transaksi aman, dan dukungan pelanggan yang prima. Kami bangga membangun kepercayaan dengan komunitas pengguna dan memastikan kepuasan melalui layanan yang andal.
               </p>
             </div>
 
@@ -55,12 +55,12 @@ export default function AboutPage() {
                 Our Services
               </h2>
               <ul className="text-gray-600 list-disc pl-5 space-y-2">
-                <li>Game Voucher Sales</li>
-                <li>In-Game Currency Top-Up</li>
-                <li>Battle Pass and Season Pass</li>
-                <li>Game Item Purchases</li>
-                <li>Premium Account Upgrades</li>
-                <li>Gift Card Services</li>
+                <li>Pulsa Semua Operator (Telkomsel, XL, Indosat, Tri, Smartfren)</li>
+                <li>Paket Data Internet</li>
+                <li>Token Listrik PLN</li>
+                <li>BPJS Kesehatan</li>
+                <li>Tagihan PDAM</li>
+                <li>Voucher Game dan Digital</li>
               </ul>
             </div>
 

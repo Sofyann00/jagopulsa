@@ -39,13 +39,9 @@ export function Navbar() {
         <div className="h-20 flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3">
-            <img 
-              src="/app_icon.png" 
-              alt="vocihub Logo"
-              width={200}
-              height={200}
-              className="object-contain"
-            />
+            <span className="text-2xl font-bold text-[#f77a0e]">
+              Jago Pulsa
+            </span>
           </Link>
 
           {/* Search and Actions */}
